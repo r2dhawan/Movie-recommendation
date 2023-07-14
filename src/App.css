@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.movie-card {
+  background-color: #333;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5c518;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffc81a;
+}
